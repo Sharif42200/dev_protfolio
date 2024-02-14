@@ -94,6 +94,10 @@ main{
     max-width: 1140px;
     margin: 0 auto;
 }
+
+main section{
+    margin-top: 130px;
+}
 /* about section styles */
 .about{
     margin: 130px 0;
@@ -131,4 +135,92 @@ main{
     font-size: 20px;
     font-weight: 700;
     color: #181818;
+}
+
+/* what i do section styles */
+.what-i-do-title{
+    font-size: 35px;
+    font-weight: 700;
+    text-align: center;
+    color: #181818;
+}
+.what-i-do-description{
+    color: #757575;
+    text-align: center;
+    font-size: 18px;
+    padding: 0px 150px;
+}
+
+/*  */
+/* skills styles */
+
+.skills{
+    margin-top: 50px;
+    display: flex;
+    /* justify-content: center;
+    align-items: center; */
+    gap: 24px;
+    
+}
+.skills-box{
+    /* border: 1px solid red; */
+    /* margin-right: 25px; */
+    
+    padding: 30px;
+    /* box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; */
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background: #FFF;
+    border-radius: 5px;
+}
+
+.skills-box-title{
+    font-size: 20px;
+    font-weight: 700;
+    color: #181818;
+}
+.skills-box-description{
+    color: #757575;
+}
+
+/*  */
+/* resume section styles */
+
+.resume-container{
+    margin-top: 100px;
+    display: flex;
+    gap: 70px;
+}
+.resume-box-title{
+    font-size: 30px;
+    font-weight: 700;
+    color: #474747;
+    margin-bottom: 0;
+}
+.resume-box{
+    margin-top: 30px;
+}
+.resume-container-box hr{
+    margin: 30px 0;
+}
+.resume-title{
+    font-size: 25px;
+    font-weight: 700;
+    color: #474747;
+    margin-bottom: 0px;
+}
+.resume-subtitle{
+    margin-top: 10px;
+    margin-bottom: 0px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #757575;
+}
+.resume-description{
+    margin-top: 20px;
+    color: #757575;
+}
+/* download-cv button */
+#download-cv{
+    margin-top: 50px;
+    text-align: center;
 }
