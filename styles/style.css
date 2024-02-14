@@ -22,7 +22,7 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-
+    padding: 0 200px;
 }
 
 .nav_title{
@@ -44,4 +44,67 @@ nav li{
 nav a{
     text-decoration: none;
     color: #474747;
+}
+
+/* header styles */
+.header{
+    background-color: #FFF8F3;
+    background-image: url('../images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
+
+.banner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 30px 0px 150px;
+
+}
+
+.banner_content{
+    width: 500px;
+}
+
+.banner_image{
+    width: 500px;
+}
+.banner_greet{
+    font-size: 45px;
+    font-weight: 600;
+    color: #474747;
+    margin-bottom: 0;
+    
+}
+.banner_title{
+    margin-top: 5px;
+    margin-bottom: 0;
+    font-size: 85px;
+    font-weight: bold;
+    color: #181818;
+}
+.banner-details{
+    margin-top: 20px;
+    color: #757575;
+
+}
+
+/* main part styles */
+
+/* about section styles */
+.about{
+    margin: 130px 0;
+    background-color: #FFF8F3;
+    padding: 130px 150px;
+}
+.about-title{
+    font-size: 35px;
+    font-weight: 700;
+    text-align: center;
+    color: #181818;
+}
+.about-description{
+    color: #757575;
+    text-align: center;
+    font-size: 18px;
 }
